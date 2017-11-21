@@ -1,0 +1,25 @@
+{
+  "name": "empty-dir",
+  "version": "1.0.0",
+  "description": "npm module to have command to ensure there is a dir and is empty",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timnederhoff/node-empty-dir.git"
+  },
+  "keywords": [
+    "dir",
+    "directory",
+    "empty",
+    "create"
+  ],
+  "author": "Tim Nederhoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timnederhoff/node-empty-dir/issues"
+  },
+  "homepage": "https://github.com/timnederhoff/node-empty-dir#readme"
+}
