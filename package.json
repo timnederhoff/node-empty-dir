@@ -1,5 +1,5 @@
 {
-  "name": "empty-dir",
+  "name": "empty-dir-cli",
   "version": "1.0.0",
   "description": "npm module to have command to ensure there is a dir and is empty",
   "main": "index.js",
