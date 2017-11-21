@@ -4,7 +4,10 @@
   "description": "npm module to have command to ensure there is a dir and is empty",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "test": "no tests yet",
+    "start": "node ./lib/index.js",
+    "build-start": "npm run build && npm start"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/timnederhoff/node-empty-dir/issues"
   },
-  "homepage": "https://github.com/timnederhoff/node-empty-dir#readme"
+  "homepage": "https://github.com/timnederhoff/node-empty-dir#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^4.0.5",
+    "fs-extra": "^4.0.2"
+  },
+  "bin": {
+    "empty-dir": "./lib/index.js"
+  }
 }
